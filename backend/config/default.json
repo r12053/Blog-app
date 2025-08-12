@@ -1,5 +1,0 @@
-{
-  "MONGO_URI": "mongodb+srv://a47270752:S4V9B76dcyLZaEer@cluster0.qqt7zik.mongodb.net/NewDatabase?retryWrites=true&w=majority&appName=Cluster0",
-  "JWT_SECRET": "your_jwt_secret_here",
-  "PORT": 5000
-}
