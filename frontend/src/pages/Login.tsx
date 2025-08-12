@@ -9,7 +9,7 @@ export default function Login() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/auth/login", {
+      const res = await axios.post("https://blog-app-cial.onrender.com/api/auth/login", {
         email,
         password,
       });
