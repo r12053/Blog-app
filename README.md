@@ -34,6 +34,7 @@ It includes authentication, post management, commenting, likes, bookmarks, and i
 ```bash
 git clone https://github.com/yourusername/blog-app.git
 cd blog-app
+---
 2️⃣ Install Backend Dependencies
 cd backend
 npm install
