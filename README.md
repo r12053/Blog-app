@@ -35,27 +35,37 @@ It includes authentication, post management, commenting, likes, bookmarks, and i
 git clone https://github.com/yourusername/blog-app.git
 cd blog-app
 ```
-2️⃣ Install Backend Dependencies
+### 2️⃣ Install Backend Dependencies
+```bash
 cd backend
 npm install
-3️⃣ Configure Environment Variables
+```
+### 3️⃣ Configure Environment Variables
 Create a .env file inside the backend folder:
+```bash
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/blog
 JWT_SECRET=your_jwt_secret
-4️⃣ Run Backend Server
+```
+### 4️⃣ Run Backend Server
+```bash
 npm run dev
-5️⃣ Install Frontend Dependencies
+```
+### 5️⃣ Install Frontend Dependencies
+```bash
 Open a new terminal:
 cd frontend
 npm install
-6️⃣ Run Frontend App
+```
+### 6️⃣ Run Frontend App
+```bash
 npm run dev
-7️⃣ Access the Application
+```
+### 7️⃣ Access the Application
 Open your browser and go to:
-
+```bash
 http://localhost:5173
-
+```
 ## 📡 API Endpoints
 
 ---
